@@ -1,0 +1,6 @@
+# USB Serial/JTAG is owned exclusively by the ECG transport driver.
+# Keep diagnostic logging on UART0 to avoid mixing it into the data stream.
+CONFIG_ESP_CONSOLE_UART_DEFAULT=y
+CONFIG_ESP_CONSOLE_SECONDARY_NONE=y
+CONFIG_PM_ENABLE=n
+CONFIG_ESPTOOLPY_FLASHSIZE_4MB=y

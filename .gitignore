@@ -1,0 +1,23 @@
+# PlatformIO output and generated ESP-IDF configuration.
+/.pio/
+/sdkconfig
+/sdkconfig.*
+!/sdkconfig.defaults
+!/sdkconfig.defaults.*
+
+# Machine-specific editor state; keep shared extension recommendations.
+/.vscode/*
+!/.vscode/extensions.json
+
+# Python environments and bytecode.
+.venv/
+__pycache__/
+*.py[cod]
+
+# Local recordings, plots, and derived analysis reports.
+/captures/
+
+# Unused PlatformIO starter notes, retained locally.
+/include/README
+/lib/README
+/test/README
